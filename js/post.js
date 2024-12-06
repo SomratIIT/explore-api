@@ -10,6 +10,7 @@ function displayPosts(posts)
  {
     console.log(post);
     const div = document.createElement('div');
+    div.classList.add('post')
     div.innerHTML = `
     <h4>User-${post.id}</h4>
     <h5>Post: title-${post.title}</h5>
